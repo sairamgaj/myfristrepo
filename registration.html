@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <label>Firstname:</label>
+        <input type="text" name="fname" id="firstname" placeholder="eg john"><br><br>
+        <label>Secondname:</label>
+        <input type="text" name="sname" id="secondname" placeholder="eg www"><br><br>
+        <label> New password:</label>
+        <input type="text" name=" new password" id=" newpassword" placeholder="0000000"><br><br>
+        <label>Re-enter password:</label>
+        <input type="text" name="re enter password" id="re enter password" placeholder="000000"><br><br>
+        <label>Mobile number:</label>
+        <input type="tel" name=" moblie" id="mobile" pattern="[0-9]{10}" placeholder="eg123456"><br><br>
+        <label>aadhaar no:</label>
+        <input type="text" id="aadhaar" name="aadhaar" pattern="\d{12}" placeholder="Enter your 12-digit Aadhaar number"><br><br>
+        <label>pancard:</label>
+        <input type="text" id="pancard" name="pancard" pattern="[A-Z]{5}[0-9]{4}[A-Z]{2}" placeholder="Enter your PAN card number"><br><br>
+        <label>address:</label>
+        <input type="text" id="address" name="address" pattern="[A-Z]{20}[0-9]{6}" placeholder="enter you address"><br><br>
+        <label>pincode:</label>
+        <input type="text" id="pincode" name="pincode" pattern="[0-6]{6}" placeholder="eg123456"><br><br>
+        <label>date:</label>
+        <input type="date"><br><br>
+        <label>time:</label>
+        <input type="time"><br><br>
+        
+        <label>choose gender</label><br><b>
+            <input type="radio" name="no" value="male">male<br>
+            <input type="radio" name="no" value="female">female<br>
+            <input type="radio" name="no" value="other">other<br><br>
+        <input type="submit">
+        
+
+
+    </form>
+</body>
+</html>
